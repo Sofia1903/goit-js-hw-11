@@ -1,5 +1,5 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import ImagesApiService from './images-service';
+import ImagesApiService from '../js/images-service';
 
 const imageApiService = new ImagesApiService();
 const form = document.querySelector('form#search-form');
